@@ -1,0 +1,2 @@
+Select region
+from cities;
