@@ -1,2 +1,2 @@
-Select region
-from cities;
+SELECT DISTINCT region
+FROM cities
