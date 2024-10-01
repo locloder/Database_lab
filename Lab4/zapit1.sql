@@ -1,4 +1,4 @@
-Select upper(name) AS city_name
-from cities
-order by name
-limit 5 offset 5;
+SELECT name, UPPER(name) AS upper_name
+FROM cities
+ORDER BY name
+LIMIT 5 OFFSET 5
