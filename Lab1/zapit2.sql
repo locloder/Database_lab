@@ -1,4 +1,4 @@
-SELECT id, name, population,region
-from cities
-order by name DESC
-limit 30;
+SELECT *
+FROM cities
+ORDER BY name DESC
+LIMIT 30
