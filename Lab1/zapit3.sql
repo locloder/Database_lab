@@ -1,3 +1,3 @@
-Select *
-from cities
-ORDER BY region, population DESC;
+SELECT *
+FROM cities
+ORDER BY region ASC, population DESC
