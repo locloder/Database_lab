@@ -1,4 +1,3 @@
-
-select COUNT(*) as city_count
-from cities
-where region = "E";
+SELECT region, COUNT(name) AS count
+FROM cities
+WHERE region IN('E')
