@@ -1,3 +1,3 @@
-SELECT name,region
-from cities
-order by region DESC, name DESC;
+SELECT *
+FROM cities
+ORDER BY region DESC, name DESC
