@@ -1,4 +1,4 @@
-Select id,name,population,region
-from cities
-order by population DESC
-LIMIT 10 OFFSET 10;
+SELECT *
+FROM cities
+ORDER BY population DESC
+LIMIT 10 OFFSET 10
