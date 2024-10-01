@@ -1,4 +1,3 @@
-select name AS city_name, length(name) AS name_length
-from cities
-where length(name) NOT IN (8, 9, 10)
-order by name;
+SELECT name, CHAR_LENGTH(name) AS LENGTH_name
+FROM cities
+WHERE CHAR_LENGTH(name) NOT BETWEEN 8 AND 10
